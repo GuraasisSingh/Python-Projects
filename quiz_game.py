@@ -19,7 +19,7 @@ if consent==1:
             marks+=10
         else:
             print("Incorrect")
-        q3=input("Enter the weigth of cell of humans:\n")
+        q3=input("Enter the size of cell of humans:\n")
         if(q3=="1 nanometer"):
             print("Correct!")
             marks+=10
@@ -27,7 +27,7 @@ if consent==1:
             print("Incorrect")
     elif s1==2:
         print("Social Science")
-        q1=int(input("Year in which india got Independence\n"))
+        q1=int(input("Year in which India got Independence\n"))
         if(q1==1947):
             print("Correct!")
             marks+=10
@@ -87,19 +87,19 @@ if consent==1:
              print("Incorrect")
     elif s1==5:
         print("General Knowlegde")
-        q1=input("Name city where 2020 olympics re held:\n")
-        if q1=="tokyo":
+        q1=input("Name city where 2020 olympics are held:\n")
+        if q1=="Tokyo":
             print("Correct")
             marks+=10
         else:
             print("Incorrect")
-        q2=input("Pongal is a festival of nwhich state:\n")
+        q2=input("Pongal is a festival of which state:\n")
         if(q2=="Tamil Nadu"):
             print("Correct!")
             marks+=10
         else:
              print("Incorrect")
-        q3=input("Enter the caital of India:\n")
+        q3=input("Enter the capital of India:\n")
         if(q3=="New Delhi"):
             print("Correct!")
             marks+=10
@@ -120,7 +120,7 @@ if consent==1:
             marks+=10
         else:
             print("Incorrect")
-        q3=input("Enter the weigth of cell of humans:\n")
+        q3=input("Enter the size of cell of humans:\n")
         if(q3=="1 nanometer"):
             print("Correct!")
             marks+=10
@@ -128,7 +128,7 @@ if consent==1:
             print("Incorrect")
     elif s2==2:
         print("Social Science")
-        q1=int(input("Year in which india got Independence\n"))
+        q1=int(input("Year in which India got Independence\n"))
         if(q1==1947):
             print("Correct!")
             marks+=10
@@ -189,18 +189,18 @@ if consent==1:
     elif s2==5:
         print("General Knowlegde")
         q1=input("Name city where 2020 olympics re held:\n")
-        if q1=="tokyo":
+        if q1=="Tokyo":
             print("Correct")
             marks+=10
         else:
             print("Incorrect")
-        q2=input("Pongal is a festival of nwhich state:\n")
+        q2=input("Pongal is a festival of which state:\n")
         if(q2=="Tamil Nadu"):
             print("Correct!")
             marks+=10
         else:
              print("Incorrect")
-        q3=input("Enter the caital of India:\n")
+        q3=input("Enter the capital of India:\n")
         if(q3=="New Delhi"):
             print("Correct!")
             marks+=10
@@ -221,7 +221,7 @@ if consent==1:
             marks+=10
         else:
             print("Incorrect")
-        q3=input("Enter the weigth of cell of humans:\n")
+        q3=input("Enter the size of cell of humans:\n")
         if(q3=="1 nanometer"):
             print("Correct!")
             marks+=10
@@ -229,7 +229,7 @@ if consent==1:
             print("Incorrect")
     elif s3==2:
         print("Social Science")
-        q1=int(input("Year in which india got Independence\n"))
+        q1=int(input("Year in which India got Independence\n"))
         if(q1==1947):
             print("Correct!")
             marks+=10
@@ -290,18 +290,18 @@ if consent==1:
     elif s3==5:
         print("General Knowlegde")
         q1=input("Name city where 2020 olympics re held:\n")
-        if q1=="tokyo":
+        if q1=="Tokyo":
             print("Correct")
             marks+=10
         else:
             print("Incorrect")
-        q2=input("Pongal is a festival of nwhich state:\n")
+        q2=input("Pongal is a festival of which state:\n")
         if(q2=="Tamil Nadu"):
             print("Correct!")
             marks+=10
         else:
              print("Incorrect")
-        q3=input("Enter the caital of India:\n")
+        q3=input("Enter the capital of India:\n")
         if(q3=="New Delhi"):
             print("Correct!")
             marks+=10
