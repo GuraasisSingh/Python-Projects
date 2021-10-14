@@ -8,6 +8,6 @@ def TowerOfHanoi(n,source,destination,auxillary):
     print("Move disk",n,"from source",source,"to destination",destination)
     TowerOfHanoi(n-1,auxillary,destination,source,)
 
-n=3
+n=int(input("Enter a number:"))
 TowerOfHanoi(n,"A","B","C")
 
