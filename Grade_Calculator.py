@@ -1,4 +1,13 @@
 # Grade calculator
+"""
+The grade will be calculated accordingly:
+if marks > 90 , grade = A
+if marks > 80 , grade = B
+if marks > 70 , grade = C
+if marks > 60 , grade = D
+if marks > 50 , grade = E
+else, grade = F
+"""
 from tkinter import *
 root=Tk()
 root.title("GRADE CALCULATOR")
