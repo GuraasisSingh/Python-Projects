@@ -29,7 +29,7 @@ y_label.place(x=120,y=50)
 year=Spinbox(root,from_=1800,to=3000,width="5")
 year.place(x=170,y=50)
 
-cal=Text(root,width=21,height=6,borderwidth=2)
+cal=Text(root,width=21,height=7,borderwidth=2)
 cal.place(x=50, y=110)
 
 show=Button(root,text="Show",font=("verdana",8,"bold"),command=show)
