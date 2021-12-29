@@ -87,7 +87,8 @@ elif st==3:
          print("The fees to be paid is",fee)
     else:
          print("Sorry you are not Eligible for Science")
-    
+else:
+    print("Invalid Choice. Please enter 1,2 or 3")
     
     
 
