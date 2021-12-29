@@ -1,13 +1,5 @@
-# Grade calculator
-"""
-The grade will be calculated accordingly:
-if marks > 90 , grade = A
-if marks > 80 , grade = B
-if marks > 70 , grade = C
-if marks > 60 , grade = D
-if marks > 50 , grade = E
-else, grade = F
-"""
+#Make a Grade calculator
+
 from tkinter import *
 root=Tk()
 root.title("GRADE CALCULATOR")
@@ -16,18 +8,20 @@ root.config(bg="green3")
 
 def Calculate():
     m=int(marks.get())
-    if m>=90:
+    if m>=90 and m<=100:
         grade="A"        
-    elif m>=80:
+    elif m>=80 and m<=90 :
         grade="B"
-    elif m>=70:
+    elif m>=70 and m<=80:
         grade="C"
-    elif m>=60:
+    elif m>=60 and m<=70:
         grade="D"
-    elif m>=50:
+    elif m>=50 and m<=60:
         grade="E"
-    else:
+    elif m>=0 and m<=50:
         grade="F"
+    else:
+        grade="Invalid"
     print=Label(text=f"Your Grade is {grade}",font="verdana 13 bold",bg="yellow",fg="blue")
     print.place(x=120,y=250)
 
