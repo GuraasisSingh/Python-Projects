@@ -4,7 +4,7 @@ Build a python application to see restaurants near me. Given a location by the u
 Couple of reviews about the restaurant, the best mode of travel and timings shall also be displayed. Contact details of the restaurants like phone number,
 email ID should also be mentioned
 '''
-loc=input('Enter your location:\n')
+loc=input('Enter your location:(Chandigarh,Mumbai,Delhi,Amritsar)\n')
 def dishes():
     print(" The best dishes in this restaurent are:\n Hakka Noodles\n Double Chees Pizza\n Veg Wraps \n Exotic Salad")
     d=int(input(" Enter 1 for Hakka Noodles\n Enter 2 for Double Cheese Pizza\n Enter 3 for Veg Wraps \n Enter 4 for Exotic Salad\n"))
